@@ -8,25 +8,7 @@ In this project, you have mainly 2 use cases with the sample code of Apex Metada
 <li>Use Case 2 - As an ISV / Consulting Partner, you want to give Admins a customized and easy to use setup UI to Read, Create and Update records in a custom metadata type “Partner Tier Configuration (PartnerTierConfiguration__mdt)”.
 </li>
 <li></li>
-<li></li>
 </ol>
-
-
-Here you will find the following details about Salesforce custom Apex REST Webservice.
-
-<ol type="1">
-<li>What does REST stand for?</li>
-<li>How to create and expose an Apex REST Webservice?</li>
-<li>Apex REST Webservice Annotations, Actions and Details</li>
-<li>Considerations</li>
-<li>Connected Apps</li>
-<li>How to create a Connected App</li>
-<li>How to Test Custom Apex REST API?</li>
-<li>Test (@isTest) class for Custom Apex REST API</li>
-<li>Useful Resources</li>
-<li><img src="supportedimages/connectedapp1.png" /></li>
-</ol>
-
 
 
 ## Useful Resources
