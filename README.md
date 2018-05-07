@@ -1,7 +1,16 @@
 # Salesforce Apex Metadata API
 
-## Salesforce Trailhead
-<a href="https://trailhead.salesforce.com/en/modules/apex_integration_services/units/apex_integration_webservices" target="_blank" alt="Apex Web Services">Apex Web Services</a>
+## Sample code with Use Cases
+In this project, you have mainly 2 use cases with the sample code of Apex Metadata API.
+<ol type="1">
+<li>Use Case 1 - As an ISV you upgrade a package that includes a new custom field “Partner Tier (PartnerTier__c)” on Account object. Customer wants that field automatically added on a common shared Account page layout “Demo Account Layout” after the package upgrades.
+</li>
+<li>Use Case 2 - As an ISV / Consulting Partner, you want to give Admins a customized and easy to use setup UI to Read, Create and Update records in a custom metadata type “Partner Tier Configuration (PartnerTierConfiguration__mdt)”.
+</li>
+<li></li>
+<li></li>
+</ol>
+
 
 Here you will find the following details about Salesforce custom Apex REST Webservice.
 
