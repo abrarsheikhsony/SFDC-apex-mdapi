@@ -33,8 +33,23 @@ The package has following development components.
 <li>A custom Visualforce tab "Manage Partner Tier Configuration"</li>
 </ol>
 
-
-
+## Look & Feel in Salesforce
+<ol type="1">
+<li>Account detail page</li>
+<img src="supportedimages/AccountDetailPage.png" />
+<li>Custom Metadata Type object detail page</li>
+<img src="supportedimages/CMT_PartnerTierConfigurationDetailPage.png" />
+<li>Custom Metadata Type object records</li>
+<img src="supportedimages/CMT_PartnerTierConfigurationRecords.png" />
+<li>Visualforce to manage (Create & Update) Custom Metadata Type records</li>
+<img src="supportedimages/ManagePartnerTierConfiguration.png" />
+<li>Deployment Status page</li>
+<img src="supportedimages/DeploymentStatus.png" />
+<li>View Setup Audit Trail</li>
+<img src="supportedimages/SetupAuditTrail.png" />
+<li></li>
+</ol>
+  
 ## Useful Resources
 <ol type="1">
 <li><a href="https://andyinthecloud.com/2013/10/27/introduction-to-calling-the-metadata-api-from-apex/" target="_blank" alt="Calling the Salesforce Metadata API from Apex">Calling the Salesforce Metadata API from Apex</a></li>
