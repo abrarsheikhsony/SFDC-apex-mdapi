@@ -18,3 +18,13 @@ Here you will find the following details about Salesforce custom Apex REST Webse
 <li><img src="supportedimages/connectedapp1.png" /></li>
 </ol>
 
+
+
+## Useful Resources
+<ol type="a">
+<li><a href="" target="_blank" alt="TEST">TEST</a></li>
+<li><a href="" target="_blank" alt="TEST">TEST</a></li>
+<li><a href="" target="_blank" alt="TEST">TEST</a></li>
+<li><a href="" target="_blank" alt="TEST">TEST</a></li>
+
+</ol>
