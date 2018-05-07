@@ -21,7 +21,7 @@ Here you will find the following details about Salesforce custom Apex REST Webse
 
 
 ## Useful Resources
-<ol type="a">
+<ol type="1">
 <li><a href="https://andyinthecloud.com/2013/10/27/introduction-to-calling-the-metadata-api-from-apex/" target="_blank" alt="Calling the Salesforce Metadata API from Apex">Calling the Salesforce Metadata API from Apex</a></li>
 
 <li><a href="https://github.com/financialforcedev/apex-mdapi" target="_blank" alt="Apex Wrapper Salesforce Metadata API">Apex Wrapper Salesforce Metadata API</a></li>
