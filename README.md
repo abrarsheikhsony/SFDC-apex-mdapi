@@ -30,6 +30,7 @@ The package has following development components.
 <ol type="a">
 <li>PartnerTierConfiguration</li>
 </ol>
+<li>A custom Visualforce tab "Manage Partner Tier Configuration"</li>
 </ol>
 
 
