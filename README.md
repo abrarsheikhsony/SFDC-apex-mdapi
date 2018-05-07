@@ -7,8 +7,31 @@ In this project, you have mainly 2 use cases with the sample code of Apex Metada
 </li>
 <li>Use Case 2 - As an ISV / Consulting Partner, you want to give Admins a customized and easy to use setup UI to Read, Create and Update records in a custom metadata type “Partner Tier Configuration (PartnerTierConfiguration__mdt)”.
 </li>
+</ol>
+
+## Development Components
+The package has following development components.
+<ol type="1">
+<li>A custom Picklist field “Partner Tier (PartnerTier__c)” on Account object</li>
+<li>An Account page layout “Demo Account Layout”</li>
+<li>A custom metadata type “Partner Tier Configuration (PartnerTierConfiguration__mdt)”</li>
+<li>Apex Classes</li>
+<ol type="a">  
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 </ol>
+<li>Visualforce Pages</li>
+<ol type="a">
+<li>PartnerTierConfiguration</li>
+</ol>
+</ol>
+
 
 
 ## Useful Resources
@@ -39,6 +62,5 @@ In this project, you have mainly 2 use cases with the sample code of Apex Metada
 
 <li><a href="https://success.salesforce.com/0F930000000PbSh" target="_blank" alt="Join "Apex Metadata API" group in the Success Community for Updates">Join "Apex Metadata API" group in the Success Community for Updates</a></li>
 
-<li><a href="" target="_blank" alt="TEST">TEST</a></li>
 <li><a href="" target="_blank" alt="TEST">TEST</a></li>
 </ol>
