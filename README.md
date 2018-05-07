@@ -47,7 +47,6 @@ The package has following development components.
 <img src="supportedimages/DeploymentStatus.png" />
 <li>View Setup Audit Trail</li>
 <img src="supportedimages/SetupAuditTrail.png" />
-<li></li>
 </ol>
   
 ## Useful Resources
@@ -78,5 +77,4 @@ The package has following development components.
 
 <li><a href="https://success.salesforce.com/0F930000000PbSh" target="_blank" alt="Join "Apex Metadata API" group in the Success Community for Updates">Join "Apex Metadata API" group in the Success Community for Updates</a></li>
 
-<li><a href="" target="_blank" alt="TEST">TEST</a></li>
 </ol>
