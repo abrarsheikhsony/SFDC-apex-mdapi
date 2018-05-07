@@ -17,14 +17,14 @@ The package has following development components.
 <li>A custom metadata type “Partner Tier Configuration (PartnerTierConfiguration__mdt)”</li>
 <li>Apex Classes</li>
 <ol type="a">  
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>DeployPackageMetadata</li>
+<li>DeployPackageMetadataTest</li>
+<li>PartnerTierConfigurationController</li>
+<li>PostInstallPackageCallback</li>
+<li>PostInstallPackageCallbackTest</li>
+<li>PostInstallPackageScript</li>
+<li>SetupPartnerTierConfiguration</li>
+<li>UpdatePageLayout</li>
 </ol>
 <li>Visualforce Pages</li>
 <ol type="a">
