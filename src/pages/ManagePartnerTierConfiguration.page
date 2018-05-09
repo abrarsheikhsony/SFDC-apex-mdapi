@@ -1,0 +1,92 @@
+<apex:page controller="ManagePartnerTierConfigurationController" standardStylesheets="true" showHeader="false" sidebar="false" lightningStyleSheets="true" docType="html-5.0">
+
+    <apex:form id="managePartnerTierConfigurationForm">
+
+        <!-- Create Partner Tier Configuration -->
+        <apex:pageBlock id="createPartnerTierConfigurationBlock">
+            
+            <apex:outputPanel rendered="{!displayConfirmationMessage}">
+                <apex:pageMessage summary="The deployment request has been queued. Please check the deployment status." severity="confirm" strength="1" />
+            </apex:outputPanel>
+
+            <apex:pageBlockSection title="Create Partner Tier Configuration" columns="1" id="createSection">
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Select Partner Tier" for="tierField"/>
+                    <apex:selectList id="tierField" value="{!selectedTier}" multiselect="false" size="1">
+                        <apex:selectOptions value="{!Tiers}" />
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Partner Fee" for="feeField"/>
+                    <apex:inputText id="feeField" value="{!partnerTierConfiguration.Fee__c}" />
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Partner Discount" for="discountField"/>
+                    <apex:inputText id="discountField" value="{!partnerTierConfiguration.Discount__c}" />
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputPanel >
+                        <center>
+                            <apex:commandButton id="createButton" action="{!createPartnerTierConfigurationRecord}" value="Create" rerender="createPartnerTierConfigurationBlock" status="loading"/>
+                        </center>
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+                
+            </apex:pageBlockSection>  
+        </apex:pageBlock>
+
+
+        <!-- Update Partner Tier Configuration -->
+        <apex:pageBlock id="updatePartnerTierConfigurationBlock">
+            <apex:outputPanel rendered="{!displayConfirmationMessage}">
+                <apex:pageMessage summary="The deployment request has been queued. Please check the deployment status." severity="confirm" strength="1" />
+            </apex:outputPanel>
+
+            <apex:pageBlockSection title="Update Partner Tier Configuration" columns="1" id="updateSection">
+
+                <apex:pageBlockTable value="{!lstPartnerTierConfiguration}" var="v">
+                    <apex:column headerValue="Partner Tier">
+                        <apex:outputText value="{!v.MasterLabel}" />
+                    </apex:column>
+                    <apex:column headerValue="Partner Fee">
+                        <apex:inputText value="{!v.Fee__c}" />
+                    </apex:column>
+                    <apex:column headerValue="Partner Discount">
+                        <apex:inputText value="{!v.Discount__c}" />
+                    </apex:column>
+                </apex:pageBlockTable>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputPanel >
+                        <center>
+                            <apex:commandButton id="updateButton" action="{!updatePartnerTierConfigurationRecords}" value="Update" rerender="updatePartnerTierConfigurationBlock" status="loading"/>
+                        </center>
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+                
+            </apex:pageBlockSection>  
+        </apex:pageBlock>
+
+    </apex:form>
+
+    <!-- LOADING ANIMATION START -->
+     <apex:outputpanel >
+        <apex:actionstatus id="loading">
+            <apex:facet name="start">
+                <div class="waitingSearchDiv" id="el_loading" 
+                     style="background-color: #fbfbfb; height: 100%;opacity:0.65;width:100%;"> 
+                    <div class="waitingHolder" style="top: 50%; width: 70%;">
+                        <img class="waitingImage" src="/img/loading.gif" title="Deploying..." />
+                        <span class="waitingDescription">Deploying...</span>
+                    </div>
+                </div>
+            </apex:facet>
+        </apex:actionstatus>
+    </apex:outputpanel>
+    <!-- LOADING ANIMATION END-->
+    
+</apex:page>

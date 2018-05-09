@@ -7,7 +7,7 @@ Version 	Author 		        Date 					Detail Description
 -------		--------------      -----------------       ------------------
 1.0 		Muhammad Abrar 		10-May-2018	            Initial Development	
 ----------------------------------------------------------------------*/
-public with sharing class PartnerTierConfigurationController{
+public with sharing class ManagePartnerTierConfigurationController{
 
     public String selectedTier {get;set;}
     public Boolean displayConfirmationMessage {get; set;}
@@ -15,7 +15,7 @@ public with sharing class PartnerTierConfigurationController{
     public final List<PartnerTierConfiguration__mdt> lstPartnerTierConfiguration {get; set;}
     final Map<String, PartnerTierConfiguration__mdt> mapPartnerTierConfiguration {get; set;} 
     
-    public PartnerTierConfigurationController(){
+    public ManagePartnerTierConfigurationController(){
         displayConfirmationMessage = false;
         partnerTierConfiguration = new PartnerTierConfiguration__mdt();
         lstPartnerTierConfiguration = new List<PartnerTierConfiguration__mdt>();
@@ -44,7 +44,7 @@ public with sharing class PartnerTierConfigurationController{
     Version 	Author 		        Date 					Detail Description 
     -------		--------------      -----------------       ------------------
     1.0 		Muhammad Abrar 		10-May-2018	            Initial Development	
-    ----------------------------------------------------------------------*/    
+    ----------------------------------------------------------------------*/ 
     public PageReference createPartnerTierConfigurationRecord(){
         // Metadata - Custom Metadata Type
         Metadata.CustomMetadata partnerTierConfigurationCMT =  new Metadata.CustomMetadata();
@@ -78,7 +78,7 @@ public with sharing class PartnerTierConfigurationController{
 
         return null;
     }
-    
+
 	/*----------------------------------------------------------------------
 	Purpose: 	Query and get records for custom metadata type "Partner Tier Configuration (PartnerTierConfiguration__mdt)"
 	Parameters: None
@@ -87,8 +87,9 @@ public with sharing class PartnerTierConfigurationController{
     Version 	Author 		        Date 					Detail Description 
     -------		--------------      -----------------       ------------------
     1.0 		Muhammad Abrar 		10-May-2018	            Initial Development	
-    ----------------------------------------------------------------------*/ 
-    public void getPartnerTierConfigurationRecords(){
+    ----------------------------------------------------------------------*/     
+    @TestVisible
+    private void getPartnerTierConfigurationRecords(){
         List<PartnerTierConfiguration__mdt> lstPartnerTierRecords = [SELECT Id, NamespacePrefix, DeveloperName, QualifiedApiName, MasterLabel, Label, Fee__c, Discount__c, Language FROM PartnerTierConfiguration__mdt];
         for(PartnerTierConfiguration__mdt partnerTierRecord : lstPartnerTierRecords){
             lstPartnerTierConfiguration.add(partnerTierRecord);

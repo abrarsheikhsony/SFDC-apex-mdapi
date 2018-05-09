@@ -3,7 +3,7 @@
     <apiVersion>42.0</apiVersion>
     <availableInTouch>true</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>PartnerTierConfiguration</label>
+    <label>ManagePartnerTierConfiguration</label>
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>7</minorNumber>
