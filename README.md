@@ -19,16 +19,16 @@ The package has following development components.
 <ol type="a">  
 <li>DeployPackageMetadata</li>
 <li>DeployPackageMetadataTest</li>
-<li>PartnerTierConfigurationController</li>
 <li>PostInstallPackageCallback</li>
 <li>PostInstallPackageCallbackTest</li>
 <li>PostInstallPackageScript</li>
 <li>SetupPartnerTierConfiguration</li>
 <li>UpdatePageLayout</li>
+<li>ManagePartnerTierConfigurationController</li>
 </ol>
 <li>Visualforce Pages</li>
 <ol type="a">
-<li>PartnerTierConfiguration</li>
+<li>ManagePartnerTierConfiguration</li>
 </ol>
 <li>A custom Visualforce tab "Manage Partner Tier Configuration"</li>
 </ol>
