@@ -9,6 +9,26 @@ In this project, you have mainly 2 use cases with the sample code of Apex Metada
 </li>
 </ol>
 
+## Validate Use Cases
+To validate Use Case 1: Run the below code snippet from an Apex class "PostInstallPackageScript" in the Developer Console. It will:
+
+<ol type="1">
+<li>
+Add a new custom field "Partner Tier (PartnerTier__c)" on Account page layout "Demo Account Layout"
+</li>
+<li>
+Create a default Managed package record in a custom metadata type "Partner Tier Configuration (PartnerTierConfiguration__mdt)"
+</li>
+</ol>
+
+```
+DeployPackageMetadata deployPacakge = new DeployPackageMetadata();
+Metadata.DeployContainer container = deployPacakge.buildDeploymentContainer();
+deployPacakge.deploy(container);
+```
+
+To validate Use Case 2: Create a Visualforce page using code snippet of "ManagePartnerTierConfiguration.page" and an Apex class "ManagePartnerTierConfigurationController"
+
 ## Development Components
 The package has following development components.
 <ol type="1">
