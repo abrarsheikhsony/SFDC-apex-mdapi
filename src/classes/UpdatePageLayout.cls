@@ -20,9 +20,12 @@ public with sharing class UpdatePageLayout{
     1.0 		Muhammad Abrar 		10-May-2018	            Initial Development	
     ----------------------------------------------------------------------*/
     public Metadata.Layout buildAccountLayout() {
-        
+                
         // The new custom field to be added in a page layout Demo Account Layout
         List<String> lstPageLayouts = new List<String>{ 'Account-Demo Account Layout' };
+
+        // Signature: Retrieves a list of custom metadata components
+        //retrieve(Metadata.MetadataType type, List<String> fullNames)
 
         // Retrieve metadata (sections + columns + items) of Account page layout "Demo Account Layout"
         List<Metadata.Metadata> pageLayouts = Metadata.Operations.retrieve(Metadata.MetadataType.Layout, lstPageLayouts);

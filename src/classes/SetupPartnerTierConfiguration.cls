@@ -25,8 +25,10 @@ public with sharing class SetupPartnerTierConfiguration{
         Metadata.CustomMetadata defaultPackageRecord = new Metadata.CustomMetadata();
         
         // When you assign namespaces to records, provide full, qualified record names to the app.
-        // If both the type and the record are in Namespace, use something like: 
+
+        // If both the type and the record are in Namespace, use something like:
         // customMetadata.fullName = 'Namespace__MetadataTypeName.Namespace__MetadataRecordName'
+        
         defaultPackageRecord.fullName = 'PartnerTierConfiguration__mdt.' + 'Default_Packaged_Record';
         defaultPackageRecord.label = 'Default Packaged Record';
         

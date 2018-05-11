@@ -23,7 +23,8 @@ public with sharing class DeployPackageMetadata{
     1.0 		Muhammad Abrar 		10-May-2018	            Initial Development	
     ----------------------------------------------------------------------*/
     public Metadata.DeployContainer buildDeploymentContainer() {
-        // Create Metadata Container (e.g. Package.xml file)
+        // Create Metadata Container 
+        // (e.g. Project Manifest "or" Package.xml file in Metadata API)
         Metadata.DeployContainer container = new Metadata.DeployContainer();
         
         // Add Metadata for a custom field "Partner Tier (PartnerTier__c)"       

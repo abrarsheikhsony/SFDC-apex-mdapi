@@ -20,6 +20,7 @@ public with sharing class ManagePartnerTierConfigurationController{
         partnerTierConfiguration = new PartnerTierConfiguration__mdt();
         lstPartnerTierConfiguration = new List<PartnerTierConfiguration__mdt>();
         mapPartnerTierConfiguration = new Map<String, PartnerTierConfiguration__mdt>();
+        // Query and get records of a custom metadata type "PartnerTierConfiguration__mdt"
         getPartnerTierConfigurationRecords();
     }
 
@@ -74,7 +75,6 @@ public with sharing class ManagePartnerTierConfigurationController{
         
         // Deploy the container with the new components. 
         Id asyncResultId = Metadata.Operations.enqueueDeployment(container, callback);
-        System.Debug('>>Create asyncResultId<<'+asyncResultId);
 
         return null;
     }
@@ -115,10 +115,14 @@ public with sharing class ManagePartnerTierConfigurationController{
 
         // Create a metadata container.
         Metadata.DeployContainer container = new Metadata.DeployContainer();
+
+        // Signature: Retrieves a list of custom metadata components
+        //retrieve(Metadata.MetadataType type, List<String> fullNames)
         
-        List<Metadata.Metadata> records = Metadata.Operations.retrieve(Metadata.MetadataType.CustomMetadata, lstPartnerTiers);
+        // Get records of a custom metadata type "PartnerTierConfiguration__mdt"
+        List<Metadata.Metadata> cmtRecords = Metadata.Operations.retrieve(Metadata.MetadataType.CustomMetadata, lstPartnerTiers);
         
-        for (Metadata.Metadata record : records) {
+        for (Metadata.Metadata record : cmtRecords) {
             Metadata.CustomMetadata vatRecord = (Metadata.CustomMetadata) record;
             String vatRecordName = vatRecord.fullName.substringAfter('.');
             PartnerTierConfiguration__mdt vatToCopy = mapPartnerTierConfiguration.get(vatRecordName);
@@ -138,7 +142,6 @@ public with sharing class ManagePartnerTierConfigurationController{
 
         // Deploy the container with the new components. 
         Id asyncResultId = Metadata.Operations.enqueueDeployment(container, callback);
-        System.Debug('>>Update asyncResultId<<'+asyncResultId);
 
         return null;
     }
