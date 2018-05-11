@@ -49,8 +49,9 @@ The package has following development components.
 <img src="supportedimages/SetupAuditTrail.png" />
 </ol>
   
-## Useful Resources
+## Background / Evolution Useful Resources
 <ol type="1">
+  
 <li><a href="https://andyinthecloud.com/2013/10/27/introduction-to-calling-the-metadata-api-from-apex/" target="_blank" alt="Calling the Salesforce Metadata API from Apex">Calling the Salesforce Metadata API from Apex</a></li>
 
 <li><a href="https://github.com/financialforcedev/apex-mdapi" target="_blank" alt="Apex Wrapper Salesforce Metadata API">Apex Wrapper Salesforce Metadata API</a></li>
@@ -59,6 +60,11 @@ The package has following development components.
 
 <li><a href="https://success.salesforce.com/ideaView?id=08730000000l4TkAAI" target="_blank" alt="Idea - Ability to update Metadata from Apex (Apex Metadata API)">Idea - Ability to update Metadata from Apex (Apex Metadata API)</a></li>
 
+</ol>
+
+## Apex Metadata API Useful Resources
+<ol type="1">
+  
 <li><a href="https://developer.salesforce.com/blogs/engineering/2017/05/introducing-apex-metadata-api.html" target="_blank" alt="Introducing the Apex Metadata API">Introducing the Apex Metadata API</a></li>
 
 <li><a href="https://developer.salesforce.com/blogs/engineering/2017/06/apex-metadata-api-security.html" target="_blank" alt="Apex Metadata API and Security">Apex Metadata API and Security</a></li>
