@@ -25,6 +25,7 @@ The package has following development components.
 <li>SetupPartnerTierConfiguration</li>
 <li>UpdatePageLayout</li>
 <li>ManagePartnerTierConfigurationController</li>
+<li>SetupParentChildCustomMetadataTypes</li>
 </ol>
 <li>Visualforce Pages</li>
 <ol type="a">
@@ -52,6 +53,9 @@ deployPacakge.deploy(container);
 ```
 
 To validate Use Case 2: Create a Visualforce page using code snippet of "ManagePartnerTierConfiguration.page" and an Apex class "ManagePartnerTierConfigurationController"
+
+## How to create Parent and Child Custom Metadata Types Synchronously (in a single transaction)?
+In this package, an Apex class <b>"SetupParentChildCustomMetadataTypes"</b> has a sample code to show you, how you can synchronously in a single transaction create Parent and Child custom metadata type records.
 
 ## Look & Feel in Salesforce
 <ol type="1">
