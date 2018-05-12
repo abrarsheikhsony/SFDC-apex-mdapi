@@ -9,11 +9,17 @@
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
+        <members>ChildCMT.TEST_CHILD_RECORD</members>
+        <members>ParentCMT.TEST_PARENT_RECORD</members>
+        <members>PartnerTierConfiguration.Default_Packaged_Record</members>
+        <members>PartnerTierConfiguration.GlobalStrategic</members>
+        <members>PartnerTierConfiguration.Platinum</members>
         <name>CustomMetadata</name>
     </types>
     <types>
         <members>Account</members>
+        <members>ChildCMT__mdt</members>
+        <members>ParentCMT__mdt</members>
         <members>PartnerTierConfiguration__mdt</members>
         <name>CustomObject</name>
     </types>

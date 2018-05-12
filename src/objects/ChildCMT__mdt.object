@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>IsActive</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ParentCMT__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Parent CMT</label>
+        <referenceTo>ParentCMT__mdt</referenceTo>
+        <relationshipLabel>Child CMTs</relationshipLabel>
+        <relationshipName>Child_CMTs</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>Child CMT</label>
+    <pluralLabel>Child CMTs</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
