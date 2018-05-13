@@ -118,9 +118,15 @@ In this package, an Apex class <b>"SetupParentChildCustomMetadataTypes"</b> has 
 ## Salesforce Developers Sessions on YouTube
 <ol type="1">
 
-<li><a href="https://www.youtube.com/watch?v=Sfnrrf9toEg" target="_blank" alt="YouTube video: Build Custom Setup Apps & Config Tools with the All-New Apex Metadata API">YouTube video: Build Custom Setup Apps & Config Tools with the All-New Apex Metadata API</a></li>
+<li><a href="https://www.youtube.com/watch?v=Sfnrrf9toEg" target="_blank" alt="Session by Salesforce: Build Custom Setup Apps & Config Tools with the All-New Apex Metadata API">Session by Salesforce: Build Custom Setup Apps & Config Tools with the All-New Apex Metadata API</a></li>
 
-<li><a href="https://www.youtube.com/watch?v=Wa3PJM8APfg" target="_blank" alt="YouTube video: Build Custom Setup Apps & Config Tools With the All-New Apex Metadata API">YouTube video: Build Custom Setup Apps & Config Tools With the All-New Apex Metadata API</a></li>
+<li><a href="https://www.youtube.com/watch?v=Wa3PJM8APfg" target="_blank" alt="Session by Salesforce: Build Custom Setup Apps & Config Tools With the All-New Apex Metadata API">Session by Salesforce: Build Custom Setup Apps & Config Tools With the All-New Apex Metadata API</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=LGTOjrgv_os" target="_blank" alt="Session by Customers: Getting Started with the New Apex Metadata API">Session by Customers: Getting Started with the New Apex Metadata API</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=5yEbsc_ocLI" target="_blank" alt="Session by Customers: Build Self-Configuring Apps With the Apex Metadata API (1)">Session by Customers: Build Self-Configuring Apps With the Apex Metadata API (1)</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=bwz65OYbkA4" target="_blank" alt="Session by Customers: Build Self-Configuring Apps With the Apex Metadata API (2)">Session by Customers: Build Self-Configuring Apps With the Apex Metadata API (2)</a></li>
 
 </ol>
 
