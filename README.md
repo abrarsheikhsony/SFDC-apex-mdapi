@@ -1,5 +1,17 @@
 # Salesforce Apex Metadata API
 
+## What is Apex Metadata API?
+It lets you make metadata changes directly from native Apex. Previously, accessing metadata required using the standard Salesforce Metadata API.
+
+## Currently limited to two (2) metadata types:
+<ol type="1">
+<li>Custom Metadata Types – Read, Create, Update records</li>
+<ol type="a">
+<li>Previously done by Force.com open source project = https://github.com/forcedotcom/CustomMetadataLoader</li>
+</ol>
+<li>Page Layouts (Read / Update) – Add fields to page layouts</li>
+</ol>
+
 ## Sample code with Use Cases
 In this project, you have mainly 2 use cases with the sample code of Apex Metadata API.
 <ol type="1">
