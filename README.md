@@ -109,13 +109,23 @@ In this package, an Apex class <b>"SetupParentChildCustomMetadataTypes"</b> has 
 
 <li><a href="https://trailhead.salesforce.com/modules/apex_metadata_api" target="_blank" alt="Trailhead Module: Apex Metadata API">Trailhead Module: Apex Metadata API</a></li>
 
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.214.0.apexcode.meta/apexcode/apex_metadata.htm" target="_blank" alt="Apex Developer Guide - Metadata namespace">Apex Developer Guide - Metadata namespace</a></li>
+
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_namespace_Metadata.htm" target="_blank" alt="Apex Developer Guide - All classes under Metadata Namespace">Apex Developer Guide - All classes under Metadata Namespace</a></li>
+
+</ol>
+
+## Salesforce Developers Sessions on YouTube
+<ol type="1">
+
 <li><a href="https://www.youtube.com/watch?v=Sfnrrf9toEg" target="_blank" alt="YouTube video: Build Custom Setup Apps & Config Tools with the All-New Apex Metadata API">YouTube video: Build Custom Setup Apps & Config Tools with the All-New Apex Metadata API</a></li>
 
 <li><a href="https://www.youtube.com/watch?v=Wa3PJM8APfg" target="_blank" alt="YouTube video: Build Custom Setup Apps & Config Tools With the All-New Apex Metadata API">YouTube video: Build Custom Setup Apps & Config Tools With the All-New Apex Metadata API</a></li>
 
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.214.0.apexcode.meta/apexcode/apex_metadata.htm" target="_blank" alt="Apex Developer Guide - Metadata namespace">Apex Developer Guide - Metadata namespace</a></li>
+</ol>
 
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_namespace_Metadata.htm" target="_blank" alt="Apex Developer Guide - All classes under Metadata Namespace">Apex Developer Guide - All classes under Metadata Namespace</a></li>
+## Join Salesforce Success Community
+<ol type="1">
 
 <li><a href="https://success.salesforce.com/0F930000000PbSh" target="_blank" alt="Join "Apex Metadata API" group in the Success Community for Updates">Join "Apex Metadata API" group in the Success Community for Updates</a></li>
 
