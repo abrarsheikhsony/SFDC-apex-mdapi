@@ -6,7 +6,7 @@
         <apex:pageBlock id="createPartnerTierConfigurationBlock">
             
             <apex:outputPanel rendered="{!displayConfirmationMessage}">
-                <apex:pageMessage summary="The deployment request has been queued. Please check the deployment status." severity="confirm" strength="1" />
+                <apex:pageMessage summary="The deployment request has been Enqueued. Please check the deployment status and metadata type." severity="confirm" strength="1" />
             </apex:outputPanel>
 
             <apex:pageBlockSection title="Create Partner Tier Configuration" columns="1" id="createSection">
@@ -43,7 +43,7 @@
         <!-- Update Partner Tier Configuration -->
         <apex:pageBlock id="updatePartnerTierConfigurationBlock">
             <apex:outputPanel rendered="{!displayConfirmationMessage}">
-                <apex:pageMessage summary="The deployment request has been queued. Please check the deployment status." severity="confirm" strength="1" />
+                <apex:pageMessage summary="The deployment request has been Enqueued. Please check the deployment status and metadata type." severity="confirm" strength="1" />
             </apex:outputPanel>
 
             <apex:pageBlockSection title="Update Partner Tier Configuration" columns="1" id="updateSection">
