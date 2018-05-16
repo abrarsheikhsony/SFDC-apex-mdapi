@@ -1,7 +1,7 @@
-# Salesforce Apex Metadata API
+# Apex Metadata API
 
 ## What is Apex Metadata API?
-It lets you make metadata changes directly from native Apex. Previously, accessing metadata required using the standard Salesforce Metadata API.
+It allows you to make metadata changes directly from Apex.
 
 ## Currently limited to two (2) metadata types:
 <ol type="1">
