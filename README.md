@@ -1,5 +1,8 @@
 # Apex Metadata API
 
+## Presentation deck of "Make Awesome Admins Happy with the Apex Metadata API" from Salesforce World Tour London 17 May 2018
+<a href="https://www.slideshare.net/secret/CjvJYDcjZ8Uqjg" target="_blank" alt="Make Awesome Admins Happy with the Apex Metadata API">Make Awesome Admins Happy with the Apex Metadata API</a>
+
 ## What is Apex Metadata API?
 It allows you to make metadata changes directly from Apex.
 
