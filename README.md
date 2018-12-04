@@ -41,6 +41,9 @@ The package has following development components.
 <li>UpdatePageLayout</li>
 <li>ManagePartnerTierConfigurationController</li>
 <li>SetupParentChildCustomMetadataTypes</li>
+<li>SetupKPIConfiguration</li>
+<li>ManageKPIConfigurationMetadata</li>
+<li>ManageKPIConfigurationMetadataTest</li>
 </ol>
 <li>Visualforce Pages</li>
 <ol type="a">
@@ -63,6 +66,12 @@ Create a default Managed package record in a custom metadata type "Partner Tier 
 
 ```
 DeployPackageMetadata deployPacakge = new DeployPackageMetadata();
+Metadata.DeployContainer container = deployPacakge.buildDeploymentContainer();
+deployPacakge.deploy(container);
+```
+
+```
+ManageKPIConfigurationMetadata deployPacakge = new ManageKPIConfigurationMetadata();
 Metadata.DeployContainer container = deployPacakge.buildDeploymentContainer();
 deployPacakge.deploy(container);
 ```
